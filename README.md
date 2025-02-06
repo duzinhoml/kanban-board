@@ -25,13 +25,13 @@ This full-stack Kanban board application provides an intuitive interface for man
 > 2.) Navigate to the project directory:
 >
 > ```
-> cd kanban-board/Develop
+> cd kanban-board
 > ```
 >
 > 3.) Install dependencies:
 >
 > ```
-> npm install
+> npm i (or npm install)
 > ```
 
 ## Usage
@@ -43,6 +43,12 @@ To run the application in development mode:
 > ```
 >
 > This will start both the client and server concurrently.
+
+To run the application in production mode:
+
+> ```
+> npm run start
+> ```
 
 ## License
 
@@ -79,6 +85,5 @@ GitHub: [duzinhoml](https://github.com/your-github-username) | Email: mathewlope
 
 ## Project Structure
 
-- `Develop/`: Contains the client and server code.
-  - `client/`: Contains the frontend code.
-  - `server/`: Contains the backend code.
+- `client/`: Contains the frontend code.
+- `server/`: Contains the backend code.

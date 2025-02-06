@@ -14,6 +14,10 @@ const sequelize = new Sequelize(dbUrl, {
   dialect: 'postgres',
   dialectOptions: {
     decimalNumbers: true,
+    ssl: { // Add SSL/TLS configuration
+      require: true, // This will force SSL/TLS to be used
+      rejectUnauthorized: false, // For Render's self-signed certificates (may need to adjust based on Render's SSL setup)
+    },
   },
 });
 
